@@ -5,7 +5,9 @@ A lightweight boilerplate library implementing a commonly used key-value store l
 pip install tuck
 
 ## Usage
+```python
 from tuck import Store
 store = Store()
 store.set("key", {"value": "data"})
 print(store.get("key"))  # {"value": "data"}
+```
